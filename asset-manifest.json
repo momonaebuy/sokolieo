@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sokolieo/static/css/main.5db81220.chunk.css",
-    "main.js": "/sokolieo/static/js/main.da837f17.chunk.js",
-    "main.js.map": "/sokolieo/static/js/main.da837f17.chunk.js.map",
+    "main.js": "/sokolieo/static/js/main.4b818534.chunk.js",
+    "main.js.map": "/sokolieo/static/js/main.4b818534.chunk.js.map",
     "runtime-main.js": "/sokolieo/static/js/runtime-main.7324bac1.js",
     "runtime-main.js.map": "/sokolieo/static/js/runtime-main.7324bac1.js.map",
     "static/css/2.ee1306ed.chunk.css": "/sokolieo/static/css/2.ee1306ed.chunk.css",
     "static/js/2.951d5172.chunk.js": "/sokolieo/static/js/2.951d5172.chunk.js",
     "static/js/2.951d5172.chunk.js.map": "/sokolieo/static/js/2.951d5172.chunk.js.map",
     "index.html": "/sokolieo/index.html",
-    "precache-manifest.1e678ce800a015658deb4b19baf7f56d.js": "/sokolieo/precache-manifest.1e678ce800a015658deb4b19baf7f56d.js",
+    "precache-manifest.630a85a33c4f49f025680631988b200e.js": "/sokolieo/precache-manifest.630a85a33c4f49f025680631988b200e.js",
     "service-worker.js": "/sokolieo/service-worker.js",
     "static/css/2.ee1306ed.chunk.css.map": "/sokolieo/static/css/2.ee1306ed.chunk.css.map",
     "static/css/main.5db81220.chunk.css.map": "/sokolieo/static/css/main.5db81220.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.ee1306ed.chunk.css",
     "static/js/2.951d5172.chunk.js",
     "static/css/main.5db81220.chunk.css",
-    "static/js/main.da837f17.chunk.js"
+    "static/js/main.4b818534.chunk.js"
   ]
 }
