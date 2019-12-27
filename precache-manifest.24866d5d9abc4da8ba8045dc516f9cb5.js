@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0ca8bf7a1cbdf91cd4b22ee9d88af3c",
+    "revision": "6f7356e4ff557b2e64b31b409ea35d47",
     "url": "/sokolieo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sokolieo/static/css/2.ee1306ed.chunk.css"
   },
   {
-    "revision": "5da8fe21d3d47011d916",
+    "revision": "3fa1900a54d4e285584e",
     "url": "/sokolieo/static/css/main.5db81220.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sokolieo/static/js/2.87a8944c.chunk.js"
   },
   {
-    "revision": "5da8fe21d3d47011d916",
-    "url": "/sokolieo/static/js/main.62bb10de.chunk.js"
+    "revision": "3fa1900a54d4e285584e",
+    "url": "/sokolieo/static/js/main.09166b48.chunk.js"
   },
   {
     "revision": "bd4d0637ddebd55b1a75",
