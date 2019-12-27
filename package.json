@@ -2,7 +2,7 @@
   "name": "sokonileo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://momonaebuy.github.io/sokolieo",
+  "homepage": "http://momonaebuy.github.io/sokolieo/",
   "dependencies": {
     "antd": "^3.26.4",
     "bootstrap": "^4.4.1",
