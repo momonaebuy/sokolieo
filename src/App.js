@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter,Switch,Route } from 'react-router-dom';
+import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from'./components/layout/Footer';
 import Products from './components/Pages/Products';
@@ -21,27 +21,27 @@ import setMarket from './components/Pages/SetMarketRedirect';
 function App() {
   return (
     <div className="App">  
-      <HashRouter basename="sokolieo">
+      <BrowserRouter  basename={process.env.PUBLIC_URL}>
       <Navbar/>
         <Switch>
-        <Route exact path='/'component={Home}/>
-        <Route path='/products'component={Products} />
-        <Route path='/contactus'component={ContactUs}/>
-          <Route path='/aboutus'component={AboutUs}/> 
-          <Route path='/signin'component={SignIn}/> 
-          <Route path='/setmarket'component={setMarket}/> 
-          <Route path='/chat/:id' component={Chat}/>
-          <Route path='/comment/:id' component={Comment}/>
-          <Route path='/signupBuyer'component={SignUpBuyer}/> 
-          <Route path='/signupSeller'component={SignUpSeller}/>
-          <Route path='/addproducts'component={SellerUpload}/> 
-          <Route path='/mapBuyer'component={MapBuyer}/>
-          <Route path='/profile'component={Profile}/>
-          <Route path='/editprofile'component={EditProfile}/>
-          <Route exact path='*' component={Nomatch} />
+        <Route exact path={process.env.PUBLIC_URL+'/'}component={Home}/>
+        <Route path={process.env.PUBLIC_URL+'/products'}component={Products} />
+        <Route path={process.env.PUBLIC_URL+'/contactus'}component={ContactUs}/>
+          <Route path={process.env.PUBLIC_URL+'/aboutus'}component={AboutUs}/> 
+          <Route path={process.env.PUBLIC_URL+'/signin'}component={SignIn}/> 
+          <Route path={process.env.PUBLIC_URL+'/setmarket'}component={setMarket}/> 
+          <Route path={process.env.PUBLIC_URL+'/chat/:id'} component={Chat}/>
+          <Route path={process.env.PUBLIC_URL+'/comment/:id' }component={Comment}/>
+          <Route path={process.env.PUBLIC_URL+'/signupBuyer'}component={SignUpBuyer}/> 
+          <Route path={process.env.PUBLIC_URL+'/signupSeller'}component={SignUpSeller}/>
+          <Route path={process.env.PUBLIC_URL+'/addproducts'}component={SellerUpload}/> 
+          <Route path={process.env.PUBLIC_URL+'/mapBuyer'}component={MapBuyer}/>
+          <Route path={process.env.PUBLIC_URL+'/profile'}component={Profile}/>
+          <Route path={process.env.PUBLIC_URL+'/editprofile'}component={EditProfile}/>
+          <Route exact path={process.env.PUBLIC_URL+'*' }component={Nomatch} />
         </Switch>
         <Footer/>
-    </HashRouter>
+    </BrowserRouter>
     </div>
   );
 }
