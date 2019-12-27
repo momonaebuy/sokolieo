@@ -21,7 +21,7 @@ import setMarket from './components/Pages/SetMarketRedirect';
 function App() {
   return (
     <div className="App">  
-      <BrowserRouter>
+      <BrowserRouter basename="/sokolieo">
       <Navbar/>
         <Switch>
         <Route exact path='/'component={Home}/>
